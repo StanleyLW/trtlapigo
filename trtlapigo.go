@@ -2,6 +2,12 @@ package trtlapigo
 
 import "fmt"
 
+type Api struct {
+	Url     string
+	Port    int
+	Address string
+}
+
 // Layer 0
 
 type Response struct {
@@ -78,4 +84,8 @@ type Stats struct {
 
 func init() {
 	fmt.Println("trtlapigo initialized...")
+}
+
+func test() {
+	fmt.Println("Test")
 }
