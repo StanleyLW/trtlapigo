@@ -2,6 +2,8 @@ package trtlapigo
 
 import "fmt"
 
+const VERSION = "0.1.0"
+
 type Api struct {
 	Url     string
 	Port    int
