@@ -5,9 +5,9 @@ import "fmt"
 const VERSION = "0.1.0"
 
 type Api struct {
-	Url     string
-	Port    int
-	Address string
+	Url    string
+	Port   int
+	Wallet string
 }
 
 // Layer 0
@@ -88,6 +88,6 @@ func init() {
 	fmt.Println("trtlapigo initialized...")
 }
 
-func test() {
+func New(url string, port int, wallet string) {
 	fmt.Println("Test")
 }
